@@ -1,0 +1,17 @@
+<%- include("./partials/header.ejs", {title: "home"})%>
+
+<h1>Welcome</h1>
+
+<form action="" id="form_url_generate" method="post">
+    <input type="url"  id="input_value">
+    <input type="submit" value="Générer le qrcode" >
+</form>
+    <img src="" alt="" id="QRcodeShower">
+    <p id="shortUrlText"></p>
+    
+    
+    
+
+
+<script src="/js/index.js"></script>
+<%- include("./partials/footer.ejs")%>

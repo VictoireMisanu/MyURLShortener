@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "node": "^20.15.0",
+    "qrcode": "^1.5.3",
+    "short-unique-id": "^5.2.0"
+  },
+  "name": "raccourcusseur_url",
+  "version": "1.0.0",
+  "main": "entry.js",
+  "scripts": {
+    "server": "node --watch entry.js"
+  },
+  "author": "victoire",
+  "license": "ISC",
+  "description": ""
+}
