@@ -1,7 +1,6 @@
 const express = require("express")
 const mainApp = express()
 const qrCode = require("qrcode")
-const fs = require('fs')
 const ShortUniqueId = require('short-unique-id')
 
 mainApp.set("view engine", "ejs");
