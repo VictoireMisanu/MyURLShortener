@@ -1,17 +1,20 @@
 <%- include("./partials/header.ejs", {title: "home"})%>
 
-<h1>Welcome to your URL Shortener, the easiest way to shorten</h1>
+<h1 id="h1">Welcome to URL shortner, the easiest way to shorten all your URL no matter how long they are</h1>
 
-<form action="" id="form_url_generate" method="post">
-    <input type="url"  id="input_value">
-    <input type="submit" value="Générer le qrcode" >
-</form>
-    <img src="" alt="" id="QRcodeShower">
+<form action="/" id="form_url_generate" class="form_url_generate" method="post">
+    <input type="url"  id="url" name="url">
+    <input type="submit" id="button" class="button" value="Générer le qrcode" >
+    <div class="QR_Links">
+        <img src="" alt="" id="QRcodeShower" class="QRcodeShower">>
     <p id="shortUrlText"></p>
+    <p id="longUrlText"></p>
+    </div>
+</form>
+    
     
     
     
 
-
-<script src="/js/index.js"></script>
+<script src="js/index.js"></script>
 <%- include("./partials/footer.ejs")%>
